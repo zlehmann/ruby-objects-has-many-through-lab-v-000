@@ -25,6 +25,6 @@ class Doctor
     appointments.each do |appt|
       results << appt.patient
     end
-    return results 
+    return results
   end
 end
