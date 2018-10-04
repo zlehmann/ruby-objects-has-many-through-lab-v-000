@@ -24,4 +24,3 @@ class Genre
     return results
   end
 end
-      
