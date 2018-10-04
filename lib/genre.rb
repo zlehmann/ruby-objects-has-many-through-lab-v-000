@@ -8,7 +8,7 @@ class Genre
   end
 
   def self.all
-    @@all 
+    @@all
   end
 
   def songs
@@ -17,7 +17,7 @@ class Genre
 
   def artists
     results = []
-    songs = self.songs 
+    songs = self.songs
     songs.each do |song|
       results << song.artist
     end
